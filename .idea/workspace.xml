@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd437939-28df-44e5-900f-366b13fd38f0" name="Changes" comment="" />
+    <list default="true" id="cd437939-28df-44e5-900f-366b13fd38f0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +96,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="96f6e303-49d2-4f95-b0e2-d7ff38ad6481" name="Changes" comment="" />
+      <changelist id="cd437939-28df-44e5-900f-366b13fd38f0" name="Changes" comment="" />
       <created>1630673932165</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -113,6 +116,7 @@
       <workItem from="1630686168427" duration="4611000" />
       <workItem from="1630737209754" duration="1208000" />
       <workItem from="1630739264506" duration="5149000" />
+      <workItem from="1630845266756" duration="105000" />
     </task>
     <servers />
   </component>
