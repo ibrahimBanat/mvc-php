@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96f6e303-49d2-4f95-b0e2-d7ff38ad6481" name="Changes" comment="" />
+    <list default="true" id="cd437939-28df-44e5-900f-366b13fd38f0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="DatabaseLocalColorSettings">
     <colors>
@@ -59,6 +62,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1xd97Pt4S1Fh37eH44LyleoVhxi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
