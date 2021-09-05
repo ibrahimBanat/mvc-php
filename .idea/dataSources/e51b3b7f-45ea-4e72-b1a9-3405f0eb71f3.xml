@@ -872,29 +872,5 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <user id="236" parent="1" name="root">
       <Host>localhost</Host>
     </user>
-    <table id="237" parent="4" name="users"/>
-    <column id="238" parent="237" name="user_id">
-      <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>null</SequenceIdentity>
-    </column>
-    <column id="239" parent="237" name="user_name">
-      <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
-    </column>
-    <column id="240" parent="237" name="user_email">
-      <Position>3</Position>
-      <DataType>varchar(255)|0s</DataType>
-    </column>
-    <column id="241" parent="237" name="password">
-      <Position>4</Position>
-      <DataType>varchar(255)|0s</DataType>
-    </column>
-    <key id="242" parent="237" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>user_id</ColNames>
-      <Primary>1</Primary>
-    </key>
   </database-model>
 </dataSource>
