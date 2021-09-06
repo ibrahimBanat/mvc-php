@@ -26,4 +26,32 @@ class Post extends Model {
             return false;
         }
     }
+    public function findPostById($id) {
+        Post::$db->query('SELECT * FROM posts WHERE id = :id');
+        Post::$db->bind(':id', $id);
+        $row = Post::$db->single();
+        return $row;
+    }
+    public function updatePost($data) {
+        Post::$db->query('UPDATE posts SET title = :title, body = :body WHERE id= :id');
+        Post::$db->bind(':id', $data['id']);
+        Post::$db->bind(':title', $data['title']);
+        Post::$db->bind(':body', $data['body']);
+        if(Post::$db->execute()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    public function deletePost($id) {
+        Post::$db->query('DELETE FROM posts WHERE id = :id');
+
+        Post::$db->bind(':id', $id);
+
+        if (Post::$db->execute()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
