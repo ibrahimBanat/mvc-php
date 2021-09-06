@@ -116,10 +116,10 @@ class Posts extends Controller {
     public function delete($id) {
         $post = $this->postModel->findPostById($id);
 
-        if(!isLoggedIn()) {
+        if(!$this->session->isLoggedIn()) {
             header("Location: " . URLROOT . "/posts");
-        } elseif($post->user_id != $_SESSION['user_id']){
-//            header("Location: " . URLROOT . "/posts");
+        } elseif($post->user_id !== $_SESSION['user_id']){
+            header("Location: " . URLROOT . "/posts");
         }
 
         $data = [
@@ -134,7 +134,6 @@ class Posts extends Controller {
             $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
 
             if($this->postModel->deletePost($id)) {
-
                 header("Location: " . URLROOT . "/posts");
             } else {
                 die('Something went wrong!');
