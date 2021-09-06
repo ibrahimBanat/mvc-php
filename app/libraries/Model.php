@@ -6,10 +6,12 @@ class Model
 {
     public static $db;
 
+
+
     public function __construct()
     {
-        if (static::$db == null) {
-            static::$db = new Database;
+        if (self::$db == null) {
+            self::$db = new Database;
         }
     }
 }

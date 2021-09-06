@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="WS-212.5080.54">
-<<<<<<< HEAD
-    <data-source name="mvc" uuid="daea0fd1-2aac-4ae3-9773-210883072d4c">
+  <component name="dataSourceStorageLocal" created-in="PS-212.5080.71">
+    <data-source name="mvc" uuid="e51b3b7f-45ea-4e72-b1a9-3405f0eb71f3">
       <database-info product="MySQL" version="5.7.35-0ubuntu0.18.04.1" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="5.7.35" exact-driver-version="8.0">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>forget</secret-storage>
       <user-name>ibrahim</user-name>
       <schema-mapping>
         <introspection-scope>
           <node kind="schema" negative="1" />
         </introspection-scope>
       </schema-mapping>
-=======
-    <data-source name="mvc" uuid="e51b3b7f-45ea-4e72-b1a9-3405f0eb71f3">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
-      <secret-storage>forget</secret-storage>
-      <schema-mapping />
->>>>>>> 6bf726c9ee88a2cc1b5a70acae3d1610a920d541
     </data-source>
   </component>
 </project>
